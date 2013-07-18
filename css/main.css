@@ -1,0 +1,54 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+
+    min-height: 740px;
+
+    background: rgb(215, 215, 215);
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
+    background: -webkit-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background:    -moz-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background:      -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background:         radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+
+    -webkit-font-smoothing: antialiased;
+}
+
+#welcome {
+  height: 400px;
+  background-color: #AAA;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#welcome img {
+  border-radius: 10px;
+  width: 320px;
+  float: left;
+}
+
+#info {
+  width: 500px;
+  position: relative;
+  float: left;
+  font-size: .5em;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+#contact {
+  padding-top: 35px;
+  padding-left: 65px;
+  text-align: left;
+}
+
+#about-me {
+  background-color: #AAA;
+  font-size: 1em;
+}
+
+.experience-details {
+  font-size: .5em;
+}

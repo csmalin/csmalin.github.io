@@ -1,24 +1,113 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset='utf-8'>
-  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>ChrisMal.in</title>
 
-  <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-  <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-  <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <meta name="description" content="Welcome to the Homepage of Chris Malin" />
+    <meta name="author" content="Chris Malin" />
 
-  <title>Chris Malin by csmalin</title>
+    <link href='http://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
+
+    <link href="css/impress.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+
+    <link rel="shortcut icon" href="favicon.png" />
 </head>
 
-<body>
+<body class="impress-not-supported">
 
-  <header>
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
 
-  </header>
+<div id="impress">
+
+    <div id="welcome" class="step" data-x="0" data-y="1000" data-z="0" data-rotate="90" data-scale="1">
+      <img src="images/Chris_Malin_400x400.jpg">
+      <div id="info">
+        <p class="title">ChrisMal.in</p>
+        <p>Web Developer</p>
+        <div id="contact">
+          {<a href="mailto:csmalin@gmail.com">"email" : "csmalin@gmail.com"</a>,<br/>
+           <a href="http://www.github.com/csmalin">"github" : "csmalin"</a>,<br/>
+           <a href="http://www.linkedin.com/in/chrissmalin/">"linkedin" : "chrissmalin"</a>,<br/>
+           <a href="http://www.twitter.com/burnninator">"twitter" : "@burnninator"</a>}
+         </div>
+        </div>
+    </div>
+
+    <div id="about-me" class="step" data-x="0" data-y="-1450" data-z="5000" data-rotate="0" data-scale="5">
+        <p class="title">About Me:</p>
+        <div>
+          I am a programming enthusiast and recent transplant to San Francisco who loves challenges and solving problems. Previously, I worked for 10 years in the telecommunications industry climbing my way up from Technician to Technical Training Specialist. After years of self taught programming in a variety of languages, I made the leap, in more ways than one from trainer to developer and Florida to California, to become a world class beginner in web development via Dev Bootcamp. Excited to put my newly minted skills to use, I am seeking a position as a Full Stack Developer with a company that will challenge me while I continue to grow and learn every day.
+        </div>
+
+    </div>
+
+    <div id="experience-1" class="step" data-x="1825" data-y="1000" data-z="-3000" data-rotate="180" data-scale="3">
+        <p class="title">Experience</p>
+        <div class="experience-details">
+        <a href="http://www.devbootcamp.com">Dev Bootcamp</a><br/>
+        San Francisco, Ca<br/>
+        Feb 2013 – May 2013<br/><br/>
+
+        12 intense weeks developing software engineering skills<br/>
+        Learned – Ruby, Rails, Sinatra, AJAX, Heroku, Testing, Postgres, OAuth, RESTful APIs<br/>
+        Improved – Javascript, jQuery, CSS<br/>
+        Practiced - TDD, Agile Development, Pair Programming<br/>
+        </div>
+    </div>
+
+    <div id="experience-2" class="step" data-x="-2000" data-y="1000" data-z="-3000" data-rotate="0" data-scale="3">
+        <div class="experience-details">
+        <a href="http://www.brighthouse.com">Bright House Networks</a><br/>
+          Maitland/Daytona Beach, Fl<br/>
+          Jan 2003 – Feb 2013<br/><br/>
+
+          <b>Technical Training Specialist</b><br/>
+          Developed and taught training programs for new hires and existing technical employees<br/>
+          Implemented training programs used nationally across the company<br/>
+          Developed, designed and launched a wiki for field technicians<br/>
+          Developed a Blackberry app and later, a mobile web app to help technicians troubleshoot issues in the field<br/>
+          <br/>
+          Other positions held: Technical Specialist, Broadband Installation Technician
+        </div>
+    </div>
+
+    <div id="experience-3" class="step" data-x="500" data-y="3000" data-rotate="90" data-scale="3">
+        <div class="experience-details">
+        <a href="http://www.browningmktg.com/">Browning Communications</a><br/>
+          Debary, Fl<br/>
+          Mar 2002 – Dec 2002<br/><br/>
+
+          <b>Web Developer/Network Administrator</b><br/>
+          Designed and maintained web pages and databases for off-site clients<br/>
+          Maintained and managed office network and Microsoft Windows NT server
+        </div>
+    </div>
 
 
 
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+    </div>
 
-          </body>
-          </html>
+</div>
+
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) {
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
