@@ -127,7 +127,7 @@ body     { pointer-events: none; }
     position: fixed;
     left: 0;
     right: 0;
-    bottom: 100px;
+    bottom: 75px;
 
     background: rgba(0,0,0,0.5);
     color: #000;
