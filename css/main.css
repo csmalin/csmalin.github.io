@@ -50,3 +50,22 @@ body {
 .experience-details {
   font-size: .5em;
 }
+
+
+.description {
+  font-size: .4em;
+  float: left;
+  width: 425px;
+}
+
+.tech_used {
+  float: left;
+  padding-left: 50px;
+  font-size: .4em;
+  width: 325px;
+}
+
+
+.step *{
+  /*outline: 1px dotted;*/
+}
